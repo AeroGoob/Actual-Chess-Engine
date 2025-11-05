@@ -18,3 +18,6 @@ def main():
   clock = p.time.Clock()
   screen.fill(p.Color("white"))
   gs = ChessEngine.Gamestate()
+  print(gs.board)
+
+main()
